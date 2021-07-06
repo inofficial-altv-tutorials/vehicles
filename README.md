@@ -1,5 +1,5 @@
 # en_EN
-## Example documentation of how to use add-on vehicles on the GTA V mp plattform alt:V.
+#### Example documentation of how to use add-on vehicles on the GTA V mp plattform alt:V.
 
 ## How to Setup
 1. Copy the "vehicle" folder into your "resources" folder ('.../altv-server/resources/'). 
@@ -26,7 +26,7 @@ A good advice might be to have a template folder. Therefore just do step 1, but 
 
 
 # de_DE 
-## Es handelt sich bei diesem Repository um eine beispielhafte Vorlage zu Vehicle Add-On Resourcen auf der GTA V Multiplayer Plattform alt:V.
+#### Es handelt sich bei diesem Repository um eine beispielhafte Vorlage zu Vehicle Add-On Resourcen auf der GTA V Multiplayer Plattform alt:V.
 
 ## Wie nutze ich es (Setup)
 1. Kopiere den "vehicle"(de: Fahrzeug) Ordner in deinen "resources" Ordner ('.../altv-server/resources/'). 
