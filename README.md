@@ -21,7 +21,7 @@ Now the vehicle should just work all fine for you.
 - The folder structure and the file names are just examples and could be different.
 
 ### Use it as a template...
-A good advice might be to have a template folder. Therefore just do step 1, but then name it something like '.vehicles', '!exampleveh', '#veh' or '_vehicletemp'. (The signs will list this template folder in top of your resources.) Now do steps 3 to 6. Your template folder is done. From now on you just have to copy your tempkate name it as you want and do steps 7 to 12.
+A good advice might be to have a template folder. Therefore just do step 1, but then name it something like '.vehicles', '!exampleveh', '#veh' or '_vehicletemp'. (The signs will list this template folder in top of your resources.)
 
 
 
@@ -48,7 +48,7 @@ Das Fahrzeug sollte jetzt auf deinem Server spawnbar sein.
 - Die Ordnerstruktur und Namen sind nur beispielhaft und könnten natürlich mit etwas Aufwand umbenannt werden.
 
 ### Nutzung als Vorlage
-Ich empfehle euch, dass ihr euch einen Vorlageordner für Fahrzeugresourcen macht. So könnt ihr schneller neue Fahrzeuge hinzufügen. Dafür solltet ihr einfach Schritt 1 machen (Ordner kopieren) und den Ordner dann sowas wie '.vehicles', '!exampleveh', '#veh' oder '_vehicletemp' nennen. (Die Sonderzeichen vor dem Namen sollen den Ordner ganz oben listen.) Wenn ihr jetzt die Schritte 3 bis 6 macht, habt ihr eine fertige Vorlage. Ab sofort müsst ihr den Ordner nur noch kopieren, umbennen wie ihr wollt und könnt mit den Schritten 7 bis 12 ein neues Fahrzeug hinzufügen.
+Ich empfehle euch, dass ihr euch einen Vorlageordner für Fahrzeugresourcen macht. So könnt ihr schneller neue Fahrzeuge hinzufügen. Dafür solltet ihr einfach Schritt 1 machen (Ordner kopieren) und den Ordner dann sowas wie '.vehicles', '!exampleveh', '#veh' oder '_vehicletemp' nennen. (Die Sonderzeichen vor dem Namen sollen den Ordner ganz oben listen.)
 
 
 # Credits
