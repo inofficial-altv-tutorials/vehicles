@@ -1,7 +1,7 @@
 # en_EN
 #### Example documentation of how to use add-on vehicles on the GTA V mp plattform alt:V.
 
-## How to Setup
+### How to Setup
 1. Copy the "vehicle" folder into your "resources" folder ('.../altv-server/resources/'). 
 2. Rename it to anything you want (ex.: manufacturer_modelname or lspd_pack).
 3. Just replace every file which exists in the modded vehicle you want to include.
@@ -28,7 +28,7 @@ A good advice might be to have a template folder. Therefore just do step 1, but 
 # de_DE 
 #### Es handelt sich bei diesem Repository um eine beispielhafte Vorlage zu Vehicle Add-On Resourcen auf der GTA V Multiplayer Plattform alt:V.
 
-## Wie nutze ich es (Setup)
+### Wie nutze ich es (Setup)
 1. Kopiere den "vehicle"(de: Fahrzeug) Ordner in deinen "resources" Ordner ('.../altv-server/resources/'). 
 2. Bennene den Ordner, wie du willst (Bsp.: hersteller_modellname oder polizei_pack).
 3. Ersetze jeder der Dateien, durch die, die im dem Fahrzeug, das du hinzufügen möchtest enthalten sind.
