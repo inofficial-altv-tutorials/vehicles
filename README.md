@@ -1,3 +1,6 @@
+# Deprecated
+Please note that this repository is a legacy template i created years ago, which might not properly work anymore. Also, since v15 alt:V introduced streaming vehicles simply by adding a single dlc.rpf inside a subfolder of resources, opening up a way simpler method.
+
 # en_EN
 #### Example documentation of how to use add-on vehicles on the GTA V mp plattform alt:V.
 
@@ -21,7 +24,7 @@ Now the vehicle should just work all fine for you.
 - The folder structure and the file names are just examples and could be different.
 
 ### Use it as a template...
-A good advice might be to have a template folder. Therefore just do step 1, but then name it something like '.vehicles', '!exampleveh', '#veh' or '_vehicletemp'. (The signs will list this template folder in top of your resources.)
+A good advice might be to have a template folder. Therefore just do step 1, but then name it something like '.vehicle', '#example', '_template' or '#'. (The symbols will list this template folder in top of your resources.)
 
 
 
@@ -30,7 +33,7 @@ A good advice might be to have a template folder. Therefore just do step 1, but 
 
 ### Wie nutze ich es (Setup)
 1. Kopiere den "example" Ordner in deinen "resources" Ordner ('.../altv-server/resources/'). 
-2. Bennene den Ordner, wie du willst (Bsp.: hersteller_modellname oder polizei_pack).
+2. Bennene den Ordner, wie du willst (Bsp.: hersteller_modellname oder polizei_set).
 3. Ersetze jeder der Dateien, durch die, die im dem Fahrzeug, das du hinzufügen möchtest enthalten sind.
 4. Übergeblieben Dateien, die nicht dabei waren, müssen gelöscht werden.
 5. Entferne jede Zeile, die eine Datei erwähnen, die in deinem Fahrzeug nicht dabei war, aus der 'stream.cfg'.
@@ -48,11 +51,11 @@ Das Fahrzeug sollte jetzt auf deinem Server spawnbar sein.
 - Die Ordnerstruktur und Namen sind nur beispielhaft und könnten natürlich mit etwas Aufwand umbenannt werden.
 
 ### Nutzung als Vorlage
-Ich empfehle euch, dass ihr euch einen Vorlageordner für Fahrzeugresourcen macht. So könnt ihr schneller neue Fahrzeuge hinzufügen. Dafür solltet ihr einfach Schritt 1 machen (Ordner kopieren) und den Ordner dann sowas wie '.vehicles', '!exampleveh', '#veh' oder '_vehicletemp' nennen. (Die Sonderzeichen vor dem Namen sollen den Ordner ganz oben listen.)
+Ich empfehle euch, dass ihr euch einen Vorlageordner für Fahrzeugresourcen macht. So könnt ihr schneller neue Fahrzeuge hinzufügen. Dafür solltet ihr einfach Schritt 1 machen (Ordner kopieren) und den Ordner dann sowas wie '.fahrzeug', '!beispiel', '_vorlage' oder '_' nennen. (Die Sonderzeichen vor dem Namen sollen den Ordner ganz oben listen.)
 
 
 # Credits
 - Rockstar Games (Grand Theft Auto V) -> https://www.rockstargames.com
 - multiplayer plattform alt:V -> https://altv.mp/#/
 
-=> btw, here is alt:V's official tutorial for this -> https://wiki.altv.mp/wiki/Tutorial:Stream_Vehicles
+=> btw, here is alt:V's official tutorial for this -> https://docs.altv.mp/gta/articles/tutorials/stream_vehicles.html?q=vehicle%20mod
