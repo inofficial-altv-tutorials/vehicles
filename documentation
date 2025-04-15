@@ -60,4 +60,4 @@ difference of'.datxx', '.datxx.rel' & '.datxx.nametable'
 -> ?
 
 'dlctext.meta' in 'vehicle/stream/'
--> ? [only '.meta' not mentioned in 'stream.cfg', seems to be the same over every (vehicle?) resource you add (maybe definition of resource type?)]
+-> ? [only '.meta' not mentioned in 'stream.toml', seems to be the same over every (vehicle?) resource you add (maybe definition of resource type?)]
