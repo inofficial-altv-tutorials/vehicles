@@ -1,0 +1,4 @@
+type = 'dlc'
+main = 'stream.toml'
+
+client-files = [ 'stream/*' ]
