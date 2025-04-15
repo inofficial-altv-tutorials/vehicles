@@ -1,61 +1,84 @@
-# Deprecated
-Please note that this repository is a legacy template i created years ago, which might not properly work anymore. Also, since v15 alt:V introduced streaming vehicles simply by adding a single dlc.rpf inside a subfolder of resources, opening up a way simpler method.
+<p align="center">
+  <a href="https://github.com/altv-templates">
+  <picture>
+    <source srcset="https://avatars.githubusercontent.com/u/87015511?s=200&v=4">
+    <img alt="alt:V Templates Logo" src="https://avatars.githubusercontent.com/u/87015511?s=200&v=4">
+    </picture>
+  </a>
+</p>
+<h1 align="center">
+  Stream Vehicles
+</h1>
 
-# en_EN
-#### Example documentation of how to use add-on vehicles on the GTA V mp plattform alt:V.
+<p align="center">
+  Explanatory template to stream vehicles on alt:V.
+</p>
+<p align="center">
+    <a href="https://github.com/altv-templates/stream-vehicles/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/license-MIT-9911cc.svg" alt="Released under the MIT license." />
+    </a>
+    <a href="https://github.com/altv-templates/stream-vehicles/wiki">
+        <img src="https://img.shields.io/badge/wiki-GitHub-008736.svg" alt="See our wiki." />
+  </a>
+</p>
 
-### How to Setup
-1. Copy the "example" folder into your "resources" folder ('.../altv-server/resources/'). 
-2. Rename it to anything you want (ex.: manufacturer_modelname or lspd_pack).
+<p align="center">
+    <a href="README.md" style="margin: 0 0.5em">
+        <img height="20" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f1ec-1f1e7.svg">
+        <img src="https://img.shields.io/badge/English-444.svg" alt="English" />
+    </a>
+    <a href="README.de.md" style="margin: 0 0.5em">
+    <img height="20" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f1e9-1f1ea.svg">
+        <img src="https://img.shields.io/badge/Deutsch-444.svg" alt="Deutsch" />
+    </a>
+    <a href="README.fr.md" style="margin: 0 0.5em">
+    <img height="20" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f1eb-1f1f7.svg">
+        <img src="https://img.shields.io/badge/Français*-444.svg" alt="Français*" />
+    </a>
+</p>
+
+
+## Disclaimer
+alt:V introduced a "simple way" of streaming vehicles with v15, if you have the vehicle as a ``dlc.rpf``. If this is the case, you can just put that file inside a folder under the resources folder, name that folder and mention it in the ``server.toml`` as a resource.
+
+We are not sure if this streams all of the files this template includes or just the files included inside the official documentation's "long way". Additionally to the officially documented files, this template includes the two meta files ``caraddoncontentunlocks.meta`` and ``vehiclelayouts_NAME.meta``.
+
+## How to use
+
+1. Copy the ``vehicle`` folder into your ``resources`` folder (eg. ``.../altv-server/resources/vehicle``). 
+2. Rename it to anything you want (eg. ``manufacturer_modelname`` or ``group_pack``).
 3. Just replace every file which exists in the modded vehicle you want to include.
 4. Every file which was not included in your vehicle has to be removed manually by yourself.
-5. Remove every mentioned file (meta and audio files) on the 'stream.cfg' which was not included in this add-on vehicle.
-6. Rename the audio files in the 'stream.cfg'.
-7. Add the folder name to the 'server.cfg' as a resource.
+5. Remove every mentioned file (meta and audio files) on the ``stream.toml`` which was not included in this add-on vehicle.
+6. Rename the audio files in the ``stream.toml``.
+7. Add the folder name to the ``server.toml`` as a resource.
 
-Now the vehicle should just work all fine for you.
+###
+    Now the vehicle should work on your server.
 
-### Infos
-- Capital letters in this repository are most likely to be changed.
-- The 'dlctext.meta' is never mentioned in the 'stream.cfg'.
+
+## Additional Notes
+
+- Any ``NAME``, ``VARIANT`` and ``MOD`` inside the file names needs to be replaced respectively.
+- The ``dlctext.meta`` is never mentioned in the ``stream.toml``.
 - The meta files are mentioned as them.
-- The audio sfx files are mentioned as their folder.
-- The other audio files are mentioned grouped as '.dat' for every different type of them. They are most likely named like you can see in 'examplefiles/stream/audio' with '_amp', '_game' & '_sounds'.
-- The folder structure and the file names are just examples and could be different.
-
-### Use it as a template...
-A good advice might be to have a template folder. Therefore just do step 1, but then name it something like '.vehicle', '#example', '_template' or '#'. (The symbols will list this template folder in top of your resources.)
+- The audio sfx files are mentioned as their respective folder.
+- The other audio files are mentioned grouped as ``.dat`` for every different type of them. They are most likely named with ``_amp``, ``_game`` & ``_sounds``.
+- The folder structure and the file names are just examples and could be different although this is almost the same structure as suggested by the [official docs](https://docs.altv.mp/gta/articles/tutorials/stream_vehicles).
+- This template includes some files that aren't officially documented by alt:V, but seem to have worked in the past (to find out which these are see "Disclaimer").
 
 
+## Usage as a template
 
-# de_DE 
-#### Es handelt sich bei diesem Repository um eine beispielhafte Vorlage zu Vehicle Add-On Resourcen auf der GTA V Multiplayer Plattform alt:V.
-
-### Wie nutze ich es (Setup)
-1. Kopiere den "example" Ordner in deinen "resources" Ordner ('.../altv-server/resources/'). 
-2. Bennene den Ordner, wie du willst (Bsp.: hersteller_modellname oder polizei_set).
-3. Ersetze jeder der Dateien, durch die, die im dem Fahrzeug, das du hinzufügen möchtest enthalten sind.
-4. Übergeblieben Dateien, die nicht dabei waren, müssen gelöscht werden.
-5. Entferne jede Zeile, die eine Datei erwähnen, die in deinem Fahrzeug nicht dabei war, aus der 'stream.cfg'.
-6. Korrigiere die Namen der Audio-Dateien in der 'stream.cfg'.
-7. Füge den Ordnernamen zu der 'server.cfg' als Resource hinzu.
-
-Das Fahrzeug sollte jetzt auf deinem Server spawnbar sein.
-
-### Infos
-- Großbuchstaben in diesem Repository sind in den meisten Fällen ersetzt durch Labels der Fahrzeuge (oder ihrer Modifikationen).
-- Die Datei 'dlctext.meta' wird in der 'stream.cfg' nie erwähnt, da sie immer dabei ist.
-- Jede '.meta' Datei wird in der 'stream.cfg' einzeln erwähnt.
-- Die Audio Dateien, die im Ordner 'stream/audio/sfx' gelandet sind, werden nicht einzeln, sondern als Ordner in der 'stream.cfg' erwähnt.
-- Die anderen Audio Dateien, werden gruppiert als '.dat' für jede verschiedene Zahl hinter diesem '.dat' erwähnt. Sie heißen auch meistens in der Endung alle entweder '_amp' oder '_game oder '_sound'.
-- Die Ordnerstruktur und Namen sind nur beispielhaft und könnten natürlich mit etwas Aufwand umbenannt werden.
-
-### Nutzung als Vorlage
-Ich empfehle euch, dass ihr euch einen Vorlageordner für Fahrzeugresourcen macht. So könnt ihr schneller neue Fahrzeuge hinzufügen. Dafür solltet ihr einfach Schritt 1 machen (Ordner kopieren) und den Ordner dann sowas wie '.fahrzeug', '!beispiel', '_vorlage' oder '_' nennen. (Die Sonderzeichen vor dem Namen sollen den Ordner ganz oben listen.)
+A good advice might be to have a template folder. Therefore just do step 1, but then name it something like ``_vehicle``. If helpful, you could remove all files under the ``/stream`` directory and only adjust the ``.toml`` files. The underscore will list it at the top of your folder making it easier for you to add more vehicles.
 
 
-# Credits
-- Rockstar Games (Grand Theft Auto V) -> https://www.rockstargames.com
-- multiplayer plattform alt:V -> https://altv.mp/#/
+## Contributions
 
-=> btw, here is alt:V's official tutorial for this -> https://docs.altv.mp/gta/articles/tutorials/stream_vehicles.html?q=vehicle%20mod
+[Pull requests](https://github.com/altv-templates/stream-vehicles/pulls) are welcome. For explicit changes, please open an [issue](https://github.com/altv-templates/stream-vehicles/issues) first. As this is a template, we'd like to keep this as simple and polished as possible.
+
+
+## Credits
+- [Rockstar Games (Grand Theft Auto V)](https://www.rockstargames.com)
+- [multiplayer plattform alt:V](https://altv.mp/#/)
+- Extra: [alt:V's official tutorial for streaming vehicles](https://docs.altv.mp/gta/articles/tutorials/stream_vehicles.html?q=vehicle%20mod)
