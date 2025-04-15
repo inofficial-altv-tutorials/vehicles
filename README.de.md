@@ -17,8 +17,8 @@
   <a href="https://github.com/altv-templates/stream-vehicles/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-9911cc.svg" alt="Released under the MIT license." />
   </a>
-    <a href="https://docs.altv.mp/gta/articles/tutorials/stream_vehicles">
-    <img src="https://img.shields.io/badge/alt:V-Documentation-008736.svg" alt="Based on the alt:V Documentation and additional research." />
+    <a href="https://github.com/altv-templates/stream-vehicles/wiki">
+        <img src="https://img.shields.io/badge/wiki-GitHub-008736.svg" alt="See our wiki." />
   </a>
 </p>
 
