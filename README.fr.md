@@ -11,7 +11,7 @@
 </h1>
 
 <p align="center">
-  Explanatory template to stream vehicles on alt:V.
+  Modèle explicatif pour les véhicules de flux sur alt:V.
 </p>
 <p align="center">
   <a href="https://github.com/altv-templates/stream-vehicles/blob/main/LICENSE">
